@@ -2,7 +2,7 @@
 Contributors: norcross
 Donate link: http://www.hellobar.com/
 Tags: hellobar, hello bar, notification bar
-Requires at least: 2.9.0
+Requires at least: 2.9
 Tested up to: 3.4.1
 Stable tag: 1.0
 
@@ -34,7 +34,7 @@ You can get your own Hello Bar account from [HelloBar.com](http://www.hellobar.c
 
 
 == Screenshots ==
-1. The Hello Bar for WordPress interface. A dead simple place to put your HelloBar code.
+1. The Hello Bar for WordPress interface.
 
 == Changelog ==
 
