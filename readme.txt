@@ -4,7 +4,7 @@ Donate link: http://www.hellobar.com/
 Tags: hellobar, hello bar, notification bar
 Requires at least: 2.9
 Tested up to: 3.4.1
-Stable tag: 1.0
+Stable tag: 1.01
 
 Easily add your Hello Bar to your WordPress blog.
 
@@ -34,9 +34,13 @@ You can get your own Hello Bar account from [HelloBar.com](http://www.hellobar.c
 
 
 == Screenshots ==
+
 1. The Hello Bar for WordPress interface.
 
 == Changelog ==
+
+= 1.01 =
+* Added options to include for logged in users and load in header as opposed to footer
 
 = 1.0 =
 * Initial release
