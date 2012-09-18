@@ -3,7 +3,7 @@
 Plugin Name: WP Hello Bar
 Plugin URI: http://andrewnorcross.com/plugins/wp-hello-bar
 Description: Insert the HelloBar on your WordPress site
-Version: 1.01
+Version: 1.02
 Author: norcross
 Author URI: http://andrewnorcross.com
 License: GPL v2
@@ -172,14 +172,13 @@ class WPHelloBar
         if(is_user_logged_in() && $user_load === false )
             return;
 
-        ?>
-        <style type="text/css" media="all">
+        if(is_user_logged_in() && $user_load === true ) {
+            echo '<style type="text/css" media="all">';
+            echo '#hellobar-wrapper {top:28px!important;}';
+            echo '</style>';
+        }
 
-        #hellobar-wrapper {top:28px!important;}
-        
-        </style>
-
-    <?php }
+    }
 
     /**
      * Display main options page structure
