@@ -1,10 +1,12 @@
 === WP Hello Bar ===
 Contributors: norcross
-Donate link: http://www.hellobar.com/
+Donate link: http://andrewnorcross.com/donate
 Tags: hellobar, hello bar, notification bar
 Requires at least: 2.9
 Tested up to: 3.4.2
 Stable tag: 1.02
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Easily add your Hello Bar to your WordPress blog.
 
